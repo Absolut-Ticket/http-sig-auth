@@ -1,0 +1,29 @@
+{
+    "name": "absolut-ticket/http-sig-auth",
+    "description": "Http Signature Authentication for Laravel/Lumen",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Benedikt Klocker",
+            "email": "benedikt.klocker@viennaticketoffice.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.1",
+        "illuminate/contracts": "^7.0",
+        "illuminate/auth": "^7.0",
+        "absolut-ticket/http-signatures-php": "^11.0.1",
+        "symfony/psr-http-message-bridge": "^2.0",
+        "nyholm/psr7": "^1.2"
+    },
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "AbsolutTicket\\HttpSigAuth\\": "src/"
+        }
+    },
+    "require-dev": {
+    }
+}
